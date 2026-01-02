@@ -1,0 +1,56 @@
+Reference,Qty,Value,Exclude from BOM,Footprint,Datasheet,LCSC
+X2,1,16MHz,,Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm,~,C7270509
+X1,1,32KHz768,,Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm,~, C5633029
+U5,1,TPS2116DRL,,Package_TO_SOT_SMD:SOT-583-8,https://www.ti.com/lit/ds/symlink/tps2116.pdf,C3235557
+J2,1,USB_C_Receptacle_USB2.0_16P,,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,C3020560
+"C10,C11",2,8.2p,,Capacitor_SMD:C_0603_1608Metric,~,C1322360
+"C17,C19,C22,C26,C30,C31,C34,C35",8,10u,,Capacitor_SMD:C_0805_2012Metric,~,C440198
+L1,1,6.8uH,,MWSA0518S-6R8MT:MWSA0518S-6R8MT,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2905/MWSA-S_Series_DS.pdf, C408348
+SW2,1,SW_Push,,Button_Switch_SMD:SW_SPST_B3SL-1002P,~, C306880
+J3,1,BATT2_CONN,,Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal,~, C295747
+J1,1,BATT1_CONN,,Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal,~, C295747
+J7,1,URM09_CONN,,Connector_JST:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal,~,C265332
+J13,1,LD_BACK_RIGHT_CONN,,Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal,~,C265101
+J12,1,LD_BACK_LEFT_CONN,,Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal,~,C265101
+J11,1,LD_FRONT_RIGHT_CONN,,Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal,~,C265101
+J10,1,LD_FRONT_LEFT_CONN,,Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal,~,C265101
+Q1,1,FDS6681Z,,FDS6681Z:FDS6681Z_Footprint,https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589837231214133248,C236906
+"F1,F2",2,750mA,,Fuse:Fuse_1206_3216Metric,~,C187594
+R13,1,62k,,Resistor_SMD:R_0805_2012Metric,~,C178156
+"R1,R10",2,100k,,Resistor_SMD:R_0805_2012Metric,~,C149504
+"U7,U8",2,TB6612FNG,,Package_SO:SSOP-24_5.3x8.2mm_P0.65mm,https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html,C141517
+F3,1,1206L110TH1,,1206L110TH1_SMT:1206L110THYR_SMT,https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588884694661914624,C126818
+U2,1,STM32L476RGT6,,Package_QFP:LQFP-64_10x10mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32l476rg.pdf,C74797
+"C5,C21",2,10n,,Capacitor_SMD:C_0603_1608Metric,~,C57112
+"C18,C24,C25",3,22u,,Capacitor_SMD:C_0805_2012Metric,~,C45783
+"C1,C2,C4,C27",4,1u,,Capacitor_SMD:C_0805_2012Metric,~,C28323
+"R3,R4",2,5K1,,Resistor_SMD:R_0805_2012Metric,,C27834
+"R19,R20,R21,R22,R23",5,470R,,Resistor_SMD:R_0805_2012Metric,~,C17710
+R11,1,33K,,Resistor_SMD:R_0805_2012Metric,,C17633
+"R9,R17,R18",3,220R,,Resistor_SMD:R_0805_2012Metric,~,C17557
+"R15,R16",2,1K,,Resistor_SMD:R_0805_2012Metric,,C17513
+R14,1,12k,,Resistor_SMD:R_0805_2012Metric,~,C17444
+"R2,R5,R6,R7,R8,R12",6,10K,,Resistor_SMD:R_0805_2012Metric,,C17414
+U3,1,RT8259,,RT8259GE:RT8259GE_RT8259GE SOT-23-6 Surface Mount,https://www.richtek.com/SaveDownload.aspx?specid=RT8259, C16819
+FB1,1,120R,,Inductor_SMD:L_0603_1608Metric,~,C14709
+"C3,C6,C7,C8,C9,C12,C13",7,100n,,Capacitor_SMD:C_0603_1608Metric,~,C14663
+"D1,D2",2,B5819W,,Schottky Diode Custom:B5819W SOD123,https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586175589875396608,C8598
+U1,1,USBLC6-2SC6,,Package_TO_SOT_SMD:SOT-23-6,https://www.st.com/resource/en/datasheet/usblc6-2.pdf,C7519
+U4,1,AMS1117-3.3,,Package_TO_SOT_SMD:SOT-223-3_TabPin2,http://www.advanced-monolithic.com/pdf/ds1117.pdf,C6186
+D5,1,WHITE_LED,,LED_SMD:LED_0603_1608Metric,~,C2290
+"D3,D4,D6,D7,D8,D9,D10",7,RED_LED,,LED_SMD:LED_0603_1608Metric,~,C2286
+C16,1,4u7,,Capacitor_SMD:C_0805_2012Metric,~,C1779
+"C20,C23,C28,C29,C32,C33,C36",7,0.1u,,Capacitor_SMD:C_0805_2012Metric,~,C1711
+"C14,C15",2,15p,,Capacitor_SMD:C_0603_1608Metric,~,C1644
+U6,1,TSOP382xx,Excluded from BOM,OptoDevice:Vishay_MINICAST-3Pin,http://www.vishay.com/docs/82491/tsop382.pdf,
+SW1,1,SW_SPST,Excluded from BOM,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~,
+J17,1,MOTOR_RIGHT_BACK_CONN,Excluded from BOM,TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal,~,
+J16,1,MOTOR_RIGHT_FRONT_CONN,Excluded from BOM,TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal,~,
+J15,1,MOTOR_LEFT_BACK_CONN,Excluded from BOM,TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal,~,
+J14,1,MOTOR_LEFT_FRONT_CONN,Excluded from BOM,TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal,~,
+J9,1,TEST_LED_PINS,Excluded from BOM,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~,
+J8,1,UART_CONN,Excluded from BOM,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,~,
+J6,1,EXTRA PWR_PINS,Excluded from BOM,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~,
+J4,1,Conn_ARM_JTAG_SWD_20,Excluded from BOM,Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical,http://infocenter.arm.com/help/topic/com.arm.doc.dui0499b/DUI0499B_system_design_reference.pdf,
+"H1,H2,H3,H4",4,MountingHole_Pad,Excluded from BOM,MountingHole:MountingHole_2.2mm_M2_Pad_Via,~,
+"FM1,FM2,FM3",3,Fiducial,Excluded from BOM,Fiducial:Fiducial_1mm_Mask2mm,~,
