@@ -1,6 +1,7 @@
 # TSUMO_BOT_hardware
 
 This repository contains the schematic and PCB designs for TSUMO_BOT a sumo robot (12x12cm), created in KiCad and manufactured by JLCPCB. The PCB is a 4-layer board, with an STM32L476RG microcontroller, two motor drivers TB6612FNG, an IR reciever TSP382, MOSFET circuit protection FDS6687, a 5V buck converter RT8259, a 3.3V regulator AMS1117, a 5V power mux TPS2116DRL and a USB-C connector with ESD protection (USBLC6).
+
 ![alt text](images/sumobot_schematic_1.png)
 ![alt text](images/sumobot_schematic_2.png)
 ![alt text](images/sumo_bot_pcb.png)
