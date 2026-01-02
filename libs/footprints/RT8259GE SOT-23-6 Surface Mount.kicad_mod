@@ -1,0 +1,184 @@
+(footprint "RT8259GE SOT-23-6 Surface Mount"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "38e39a54-c236-474c-a83a-c480c27ac266")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RT8259GE SOT-23-6 Surface Mount"
+		(at 0 5.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "87b5c86b-98ef-41cf-95b5-041c684e80f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e613133f-aeb8-4b29-b8b2-2a0e45b29d16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "814732ee-9d8f-45df-a117-f3530fcde7fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -1.8)
+		(end -1.7 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8fa46a27-7774-48bd-a3a5-f1eb0e99bb14")
+	)
+	(fp_line
+		(start -2 1.8)
+		(end -2 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "35e51c92-4500-40bc-9935-d7af71fba2fc")
+	)
+	(fp_line
+		(start -1.1 -1.8)
+		(end 2 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da994be4-5eac-452e-8de4-121b75dc6432")
+	)
+	(fp_line
+		(start 2 -1.8)
+		(end 2 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4b9a572f-c2db-4f74-8648-c44b504ead50")
+	)
+	(fp_line
+		(start 2 1.8)
+		(end -2 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3ae310fd-0b07-4bf4-989d-961a90ded0eb")
+	)
+	(fp_circle
+		(center -1.4 -1.8)
+		(end -1.25 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d0a636df-2e54-4588-a508-0486ddbb9879")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.3 7.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6084c8ff-31ef-4871-b77e-a73039fe6d36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.397 -0.9395)
+		(size 0.85 0.705)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "da916c3b-0c9f-45ff-9671-54126cb0fe68")
+	)
+	(pad "2" smd roundrect
+		(at -1.397 0)
+		(size 0.85 0.705)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "18973d10-e6f3-419d-a066-c030cb2ee763")
+	)
+	(pad "3" smd roundrect
+		(at -1.397 0.9395)
+		(size 0.85 0.705)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b100c69d-a212-4036-becd-eff15ebe20c1")
+	)
+	(pad "4" smd roundrect
+		(at 1.397 0.9395)
+		(size 0.85 0.705)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "237ce393-662a-408c-b796-7b65bafdb6ed")
+	)
+	(pad "5" smd roundrect
+		(at 1.397 0)
+		(size 0.85 0.705)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1a68c30a-cfdb-485f-9810-57cf40a1f601")
+	)
+	(pad "6" smd roundrect
+		(at 1.397 -0.9395)
+		(size 0.85 0.705)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d77fb28b-ce8b-4a5a-a8fd-94c0f351eaee")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/SOT-23-6_RIT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
