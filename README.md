@@ -5,7 +5,8 @@ This repository contains the schematic and PCB designs for TSUMO_BOT a sumo robo
 ![alt text](images/sumobot_schematic_1.png)
 ![alt text](images/sumobot_schematic_2.png)
 ![alt text](images/sumo_bot_pcb.png)
-![alt text](images/sumobot_pcb_3d_2.png)![alt text](images/sumobot_pcb_3d_1.png)
+![alt text](images/PCB_physical.jpg)
+![alt text](images/sumobot_pcb_3d_2.png)
 
 ## Setup
 
